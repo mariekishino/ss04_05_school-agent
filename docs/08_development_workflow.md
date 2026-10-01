@@ -591,7 +591,7 @@ The purpose of this sequence is to keep failures local and understandable.
 
 ## 13. First issue
 
-The next development task should be:
+The initial development task is:
 
 ```text
 Receive explicit secretary mentions from Discord and print normalized message metadata to the terminal.
@@ -609,3 +609,6 @@ text: hello
 ```
 
 No database, LLM, Calendar, or Dot should be introduced in this issue.
+
+For completed work, verification status, and the next issue, read
+[Progress and restart notes](10_progress.md) before resuming development.
