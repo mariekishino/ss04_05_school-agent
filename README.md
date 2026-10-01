@@ -4,6 +4,8 @@
 最初のMVPはレッスン振替。設計は [Product Vision](docs/00_product_vision.md) と
 [MVP Scope](docs/09_mvp_scope.md) を参照。
 
+作業を再開するときは、[進捗・次回の再開メモ](docs/10_progress.md)を先に確認する。
+
 ## 現在の実装: Phase 1 — Discord → Terminal
 
 人がサーバー内でBotを直接メンションすると、IDと本文をターミナルに表示する。
