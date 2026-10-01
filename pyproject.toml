@@ -1,0 +1,19 @@
+[project]
+name = "school-agent"
+version = "0.1.0"
+description = "Discord mention receiver for the piano school PoC"
+requires-python = ">=3.10"
+dependencies = ["discord.py>=2.0,<3", "python-dotenv>=1,<2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
